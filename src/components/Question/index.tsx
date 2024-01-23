@@ -25,7 +25,7 @@ const Question = ({
         <h3 className="md:text-lg font-bold hover:text-fuchsia-600 text-dark-purple">
           {question}
         </h3>
-        <span>{open ? <PlusIcon /> : <MinusIcon />}</span>
+        <span>{!open ? <PlusIcon /> : <MinusIcon />}</span>
       </div>
       {open && (
         <div
