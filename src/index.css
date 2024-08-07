@@ -3,9 +3,8 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'Work Sans';
-  src: url('../src/assets/fonts/WorkSans-VariableFont_wght.ttf')
-    format('truetype');
+  font-family: "Work Sans";
+  src: url("./assets/fonts/WorkSans-VariableFont_wght.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -14,5 +13,5 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
 }
